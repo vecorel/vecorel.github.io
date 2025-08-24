@@ -1,4 +1,7 @@
-# Vecorel
+---
+layout: home
+title: Vecorel
+---
 
 ## About Vecorel
 
@@ -19,8 +22,8 @@ You can learn more about the technologies behind the Vecorel specification, read
   - [List of Extensions](https://github.com/vecorel/extensions)
   - [Guide to create custom extensions](https://github.com/vecorel/extensions)
   - [Extension Template](https://github.com/vecorel/extension-template)
-- [List of Software / Tooling](https://github.com/vecorel/software)
-  - [CLI: GeoParquet Validation, Conversion, etc. in Python](https://github.com/vecorel/cli)
+- Software / Tooling
+  - [CLI: Validation, Conversion, etc. in Python](https://github.com/vecorel/cli)
 - [Schema Definition Language (SDL)](https://github.com/vecorel/sdl)
 
 ## Community

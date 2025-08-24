@@ -1,0 +1,27 @@
+title: Vecorel
+description: >-
+  Vector Core Language (Vecorel) - A generic and extensible way to describe 
+  geospatial vector data, with schemas for validation.
+baseurl: ""
+url: "https://vecorel.org"
+markdown: kramdown
+theme: minima
+minima:
+  skin: auto
+
+author:
+  name: Taylor Geospatial Engine
+  website: https://tgengine.org
+
+header_pages: []
+
+footer_pages:
+  - CODE_OF_CONDUCT.md
+
+exclude:
+  - .git/
+  - .gitignore
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
