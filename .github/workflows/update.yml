@@ -1,10 +1,11 @@
 name: Build and Deploy Jekyll Site
 
 on:
+  schedule:
+    - cron: '0 0 * * *' # at 00:00 everyday
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -28,10 +29,20 @@ jobs:
       with:
         ruby-version: '3.1'
         bundler-cache: true
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
         
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v4
+
+    - name: Update extensions
+      run: |
+        pip install -r .github/build-script/requirements.txt
+        python .github/build-script/create_readme.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Build Jekyll site
       run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

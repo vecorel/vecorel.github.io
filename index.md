@@ -19,8 +19,8 @@ You can learn more about the technologies behind the Vecorel specification, read
 
 - [The Specification](https://github.com/vecorel/specification)
 - Extensions
-  - [List of Extensions](https://github.com/vecorel/extensions)
-  - [Guide to create custom extensions](https://github.com/vecorel/extensions)
+  - [List of Extensions](extensions/index.md)
+  - [Guide to create custom extensions](extensions/create.md)
   - [Extension Template](https://github.com/vecorel/extension-template)
 - Software / Tooling
   - [CLI: Validation, Conversion, etc. in Python](https://github.com/vecorel/cli)
