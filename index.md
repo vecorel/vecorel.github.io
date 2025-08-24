@@ -18,12 +18,8 @@ There will likely be lots of different types of extensions: some that are genera
 You can learn more about the technologies behind the Vecorel specification, read the full specification text, and explore available open data sets and extensions at the links below.
 
 - [The Specification](https://github.com/vecorel/specification)
-- Extensions
-  - [List of Extensions](extensions/index.md)
-  - [Guide to create custom extensions](extensions/create.md)
-  - [Extension Template](https://github.com/vecorel/extension-template)
-- Software / Tooling
-  - [CLI: Validation, Conversion, etc. in Python](https://github.com/vecorel/cli)
+- [Extensions](extensions/)
+- [Software / Tooling](software/)
 - [Schema Definition Language (SDL)](https://github.com/vecorel/sdl)
 
 ## Community

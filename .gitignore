@@ -29,3 +29,5 @@ node_modules/
 
 # Local development
 .env
+/extensions/index.md
+/software/index.md

@@ -40,7 +40,7 @@ jobs:
     - name: Update extensions
       run: |
         pip install -r .github/build-script/requirements.txt
-        python .github/build-script/create_readme.py
+        python .github/build-script/create_overviews.py
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
