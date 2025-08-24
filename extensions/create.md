@@ -48,7 +48,7 @@ Here's a guideline how to use the extension template:
 * `schema/schema.yaml`:
   * Update the Schema accordingly to your changes in the README.md
     The Schema language is similar to JSON Schema, but has some specifics, especially the data types.
-    See [Vecorel Schema](https://github.com/vecorel/schema) for details.
+    See [Vecorel SDL](https://github.com/vecorel/sdl) for details.
 * `examples/` folder:
   * Add at least one GeoJSON example
   * Add a GeoParquet example. You can generate it from GeoJSON with the [Vecorel CLI](https://github.com/vecorel/cli).
