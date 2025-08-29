@@ -59,4 +59,4 @@ Here's a guideline how to use the extension template:
   This will automatically publish the schemas.
 * Add your extension to the list above if needed.
   All extensions hosted in the Vecorel organization will be added automatically each night.
-  You can add external/community extensions to the list above by editing the [config file](https://github.com/vecorel/vecorel.github.io/edit/main/extensions/external-extensions.yaml) and creating a PR from it.
+  You can add external/community extensions to the list above by editing the [config file](https://github.com/vecorel/vecorel.github.io/edit/main/extensions/external.yaml) and creating a PR from it.
